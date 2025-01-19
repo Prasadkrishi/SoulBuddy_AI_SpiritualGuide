@@ -10,7 +10,7 @@ load_dotenv()
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
 LANGFLOW_ID = "e103b380-ebad-43dc-b58b-0cafc3c2895e"
 FLOW_ID = "00a84e86-2722-492f-ae9f-694ff52180ed"
-APPLICATION_TOKEN = os.environ.get("APP_TOKEN")
+APPLICATION_TOKEN = os.getenv("APP_TOKEN")
 ENDPOINT = "astrology"
 
 # Helper function to extract message
